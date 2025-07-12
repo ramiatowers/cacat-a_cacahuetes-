@@ -7,7 +7,6 @@ public class Greet {
         String salute = greeting.nextLine();
                 System.out.println("Write your name");
         String name = greeting.nextLine();
-                greeting.close();
                 System.out.println(salute + " " + name);
     }
 
